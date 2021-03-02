@@ -105,8 +105,8 @@ function init() {
     d3.json(url).then(function(data) {
         //populate drop down options
         data.names.forEach(subject => menu.append("option").text(Number(subject)).property("value"))
-        samplesPlot(Number(data.names[35]))
-        getMeta(Number(data.names[35]))});
+        samplesPlot(940)
+        getMeta(940)});
 
 }
 //call initial function
